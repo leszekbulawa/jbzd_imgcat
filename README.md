@@ -4,7 +4,7 @@ This small script prints random image from jbzd.pl main page to terminal.
 It uses iTerm2 utilities (imgcat) to display images in console.
 
 In future it will cover more terminal emulators and image printing programs.
-Over time it will be available in PIPy.
+Over time it will be available in PyPI.
 
 ## Prequisities
 
