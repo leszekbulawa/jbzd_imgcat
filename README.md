@@ -3,17 +3,17 @@ This small script prints random image from jbzd.pl main page to terminal.
 
 Currently it only supports iTerm2.  
 
-## Prequisities
-- iTerm2
-- python 3
-- python3 libs: `requests`, `BeautifulSoup4`
+## Source
+https://github.com/leszekbulawa/jbzd_imgcat
+
+## Installation
+`pip3 install jbzd_imgcat`
 
 ## Usage
-python3 jbzd_imgcat.py
-
+`jbzd_imgcat`
 
 ## TODO
 - improve range and randomness of images
 - support more terminal emulators
-- PyPIs
+- wheel
 - exception handling :)

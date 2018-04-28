@@ -24,5 +24,5 @@ def print_image(data):
     stdout.buffer.write(header + image_b64_data + b'\a\n')
 
 
-if __name__ == '__main__':
+def main():
     print_image(get_image_content(get_jbzd_random_url()))
