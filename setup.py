@@ -9,8 +9,8 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='jbzd_imgcat',
-    version='0.0.1rc2',
-    description='jbzd.pl imgcat',
+    version='0.0.2',
+    description='jbzd.com.pl imgcat',
     url='https://github.com/leszekbulawa/jbzd_imgcat',
     author='Leszek Buława',
     author_email='leszekbu@gmail.com',
@@ -18,7 +18,7 @@ setup(
         'Development Status :: 3 - Alpha',
         'Programming Language :: Python :: 3',
     ],
-    keywords='jbzd jbzd.pl imgcat',
+    keywords='jbzd jbzd.pl jbzd.com.pl imgcat',
     py_modules=['jbzd_imgcat'],
     install_requires=['requests', 'BeautifulSoup4'],
     entry_points={

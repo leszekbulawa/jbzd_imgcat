@@ -6,9 +6,9 @@ from sys import stdout
 
 
 def get_jbzd_random_url():
-    r = requests.get('https://jbzd.pl')
+    r = requests.get('https://jbzd.com.pl')
     soup = BeautifulSoup(r.text, 'html.parser')
-    urls = soup.findAll("img", class_="resource-image")
+    urls = soup.findAll("img", class_="article-image")
     draw_url = urls[random.randint(0, len(urls) - 1)].attrs['src']
     return draw_url
 
